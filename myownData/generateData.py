@@ -6,7 +6,7 @@ data_dict = {'Feed':"PB-NAMR",'IDP_symbol':"",'Contrib_symbol':"",'BID':"",'ASK'
 with open('TRCC_Data.csv', 'w') as csvfile:
     postID = 1001
     FS='\x01'
-    for i in range(1,100):
+    for i in range(0,100000000):
         x=str(random.randint(1,50))
         data_dict["IDP_symbol"] = "SYM_"+ x +".contrib"
         data_dict["Contrib_symbol"] = "JPX_"+ x + ".JX"
