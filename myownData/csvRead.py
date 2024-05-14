@@ -3,7 +3,7 @@ import pandas as pd
 
 dataDictionary = []
 d1={}
-with open('myData.csv') as csvfile:
+with open('TRCC_Data.csv') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
         d1={}
