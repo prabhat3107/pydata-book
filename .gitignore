@@ -5,3 +5,7 @@
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/pydata-book.iml
 /.idea/vcs.xml
+/myownData/TRCC_pub_logs.csv
+/myownData/TRCC_Data.csv
+/myownData/conduit_error_logs.csv
+/myownData/conduit_error.csv
