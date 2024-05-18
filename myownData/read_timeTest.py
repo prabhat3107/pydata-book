@@ -1,5 +1,5 @@
 import pandas as pd
-import dask.dataframe as dd
+#import dask.dataframe as dd
 import time
 #FS = '\x01'
 FS=','
